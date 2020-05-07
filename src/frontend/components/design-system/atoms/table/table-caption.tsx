@@ -16,7 +16,6 @@ const TableCaption = styled.caption`
   color: ${({ theme }): string => theme.colors.white};
   font-size: ${({ theme }): string => theme.fontSizes.default};
   line-height: ${({ theme }): string => theme.lineHeights.default};
-  position: absolute;
   height: ${CAPTION_HEIGHT};
   left: 0;
   right: 0;
